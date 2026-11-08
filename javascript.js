@@ -12,3 +12,5 @@ console.log(friends);
 const years = new Array(1991,1984,2008,220);
 
 console.log(friends[0]);
+console.log(friends[friend1.lenght-1]);
+console.log("fenet");
