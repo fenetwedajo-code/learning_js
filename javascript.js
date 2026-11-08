@@ -5,3 +5,10 @@ console.log(calcAverage(3,4,5));
 const friend1 ="michael";
 const friend1 ="steven";
 const friend1 ="peter";
+
+const frends =["michael","steven","peter"];
+console.log(friends);
+
+const years = new Array(1991,1984,2008,220);
+
+console.log(friends[0]);
