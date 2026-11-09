@@ -33,3 +33,13 @@ friends.shift();// remove from the first
 console.log(friends.indexOf('steven'));// shows the index where steven is there
 
 console.log(friends.includes('steven'));// to check if the array has the data
+
+//starting objects
+
+const fenet ={
+    fristName:'fene',
+    lastName:'wedajo',
+    age:2037-1997,
+    job:'teacher',
+    friends>['boni', 'robu', 'hawi']
+};
