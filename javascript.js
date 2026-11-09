@@ -31,3 +31,5 @@ const popped =friends.pop();
 console.log(popped); // shows the popped element to the console
 friends.shift();// remove from the first
 console.log(friends.indexOf('steven'));// shows the index where steven is there
+
+console.log(friends.includes('steven'));// to check if the array has the data
