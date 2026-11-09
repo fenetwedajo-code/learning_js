@@ -17,3 +17,7 @@ console.log(friends[0]);
 console.log(friends[friend1.lenght-1]);
 console.log("fenet");
 */
+// starting basic arry operation methods
+
+const frends =["michael","steven","peter"];
+friends.push('jay');// adding data to the end
