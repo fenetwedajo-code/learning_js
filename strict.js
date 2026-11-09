@@ -100,6 +100,6 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 
 console.log(yearsUntilRetirement(1950, 'fenet'));
 */
-const frends =["michael","steven","peter"];
-frends.push('jay');// adding data to the end
-console.log(frends);
+const friends =["michael","steven","peter"];
+friends.push('jay');// adding data to the end
+console.log(friends);
