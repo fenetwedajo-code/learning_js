@@ -103,3 +103,17 @@ console.log(yearsUntilRetirement(1950, 'fenet'));
 const friends =["michael","steven","peter"];
 friends.push('jay');// adding data to the end
 console.log(friends);
+// learning objects
+const fenet = {
+  firstName: 'fenet ',
+  lastName: 'wedajo',
+  age: 30,
+  friends: ['michael', 'steven', 'peter']
+};
+console.log(fenet);
+console.log(fenet.lastName);
+console.log(fenet['lastName']);
+
+const nameKey = 'Name';
+console.log(fenet['first' + nameKey]);
+console.log(fenet['last' + nameKey]);
