@@ -119,4 +119,4 @@ console.log(fenet['first' + nameKey]);
 console.log(fenet['last' + nameKey]);
 
 const interestedIn = prompt('what do you want to know about fenet? choose between firstName, lastName, age, friends');
-console.log(fenet[interestedIn]);
+console.log(fenet.interestedIn);
