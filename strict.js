@@ -99,7 +99,7 @@ const yearsUntilRetirement = function (birthYear, firstName) {
 }
 
 console.log(yearsUntilRetirement(1950, 'fenet'));
-*/
+
 const friends =["michael","steven","peter"];
 friends.push('jay');// adding data to the end
 console.log(friends);
@@ -133,3 +133,5 @@ fenet.twitter = ['@fenetwedajo'];
 // jonas has 3 friends and his best friend is called michael'
 const friend = `fenet has  ${fenet.friends.length} friends and her best friend is called ${fenet.friends[0]} `;
 console.log(friend);
+*/
+// object method 
