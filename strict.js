@@ -129,4 +129,7 @@ if (fenet[interestedIn]) {
 //adding new properties to the object
 fenet.location = "ethiopia";
 fenet.twitter = ['@fenetwedajo'];
-console.log(fenet);
+// challenge
+// jonas has 3 friends and his best friend is called michael'
+const friend = `fenet has  ${fenet.friends.length} friends and her best friend is called ${fenet.friends[0]} `;
+console.log(friend);
