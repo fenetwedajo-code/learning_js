@@ -125,3 +125,8 @@ if (fenet[interestedIn]) {
 } else {
   console.log('wrong request');
 }
+
+//adding new properties to the object
+fenet.location = "ethiopia";
+fenet.twitter = ['@fenetwedajo'];
+console.log(fenet);
