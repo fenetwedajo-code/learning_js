@@ -135,3 +135,19 @@ const friend = `fenet has  ${fenet.friends.length} friends and her best friend i
 console.log(friend);
 */
 // object method 
+const fenet = {
+  firstName: 'fenet ',
+  lastName: 'wedajo',
+  birthYear: 1991,
+  friends: ['michael', 'steven', 'peter'],
+  hasDriversLicense: true,
+  calcAge: function (birthYear) {
+    return 2037 - birthYear;
+  }
+
+};
+
+console.log(fenet.calcAge(fenet.birthYear));
+console.log(fenet['calcAge'](fenet.birthYear));
+
+
