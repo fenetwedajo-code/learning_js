@@ -141,13 +141,23 @@ const fenet = {
   birthYear: 1991,
   friends: ['michael', 'steven', 'peter'],
   hasDriversLicense: true,
-  calcAge: function (birthYear) {
-    return 2037 - birthYear;
+  calcAge: function () {
+    this.age = 2037 - this.birthYear;
+    return this.age;
+  },
+
+  getSummary: function () {
+    return  `${this.firstName} is a ${this.calcAge()} year old and he has ${this.hasDriversLicense? 'a':no} DriversLicense`;
   }
+  };
 
-};
+  console.log(fenet.getSummary());
+//console.log(fenet['calcAge'](fenet.birthYear));
 
-console.log(fenet.calcAge(fenet.birthYear));
-console.log(fenet['calcAge'](fenet.birthYear));
+// challenge
+// "jonas is a 46-year old teacher ,and he has a driver license"
+
+
+//const getSummary = `${fenet.firstName} is a $//{fenet.calcAge()} year old and he has ${fenet.hasDriversLicense} DriversLicense`;
 
 
