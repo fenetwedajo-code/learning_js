@@ -133,7 +133,7 @@ fenet.twitter = ['@fenetwedajo'];
 // jonas has 3 friends and his best friend is called michael'
 const friend = `fenet has  ${fenet.friends.length} friends and her best friend is called ${fenet.friends[0]} `;
 console.log(friend);
-*/
+
 // object method 
 const fenet = {
   firstName: 'fenet ',
@@ -156,8 +156,35 @@ const fenet = {
 
 // challenge
 // "jonas is a 46-year old teacher ,and he has a driver license"
+*/
 
+const fenet = {
+  fullName: 'Fenet Wedajo',
+  mass: 48,
+  height: 1.55,
+  calcbmi: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  }
 
-//const getSummary = `${fenet.firstName} is a $//{fenet.calcAge()} year old and he has ${fenet.hasDriversLicense} DriversLicense`;
+};
 
+const roba = {
+  fullName: 'roba tamirat',
+  mass: 58,
+  height: 1.65,
+  calcbmi: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  }
+};
 
+fenet.calcbmi();
+roba.calcbmi();
+console.log(fenet.bmi, roba.bmi);
+
+if (fenet.bmi > roba.bmi) {
+  console.log(`${fenet.fullName} 's(${fenet.bmi})BMI is greater than ${roba.fullName} 's (${roba.bmi})`);
+} else {
+  console.log(`${roba.fullName} 's(${roba.bmi})BMI is greater than ${fenet.fullName} 's (${fenet.bmi})`);
+}
